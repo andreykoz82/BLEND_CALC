@@ -6,7 +6,7 @@ from scripts.helper_fuctions import read_txt_file, to_excel
 
 st.title('РАСЧЕТ ПОКАЗАТЕЛЕЙ СМЕШИВАНИЯ')
 
-items_txt = r"data\actual_items.txt"
+items_txt = r"./data/actual_items.txt"
 
 items = read_txt_file(items_txt)
 item_discr = ['Цельное', "Измельченное", "Верхнее сито 5-7", "Крупный порошок", "РПС"]
